@@ -41,8 +41,12 @@ Same idea as The Last Ninja: the screen is built from pieces
   (see the reference art in C64_ART_NOTES.md).
 - **Perspective by shrinking sprites:** the player character gets smaller as they walk "into" the picture,
   e.g. down a path into the distance.
-  Note: C64 hardware can only double sprites (x2 expand), not shrink them, so this
-  means several pre-drawn sizes of the character, swapped by distance.
+  How (from the user): the hardware can't shrink a sprite, so **draw the smaller sizes as extra animation frames**.
+  We know the depth (screen Y position / path position), so pick the frame set for that depth.
+  - Works the same with 1, 2 or 4 sprites per character: a big character made of several sprites,
+    or stacked layers (e.g. extra colour/outline overlays). Every layer swaps to its matching depth frame.
+  - Plan: a depth table (screen Y -> size set), with each size set holding the full walk cycle.
+    The far sizes may need fewer sprites (e.g. 4 near, 2 mid, 1 far), which frees sprites for other things.
 - **Masking:** the character can walk behind things (trees, pillars) cheaply.
   Options to explore: sprite-behind-background priority, a mask from the atlas, or overlay sprites.
   Find out which way Dev Machine does it.
