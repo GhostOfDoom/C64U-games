@@ -30,4 +30,4 @@ Techniques seen:
 - **Thin grid-aligned linework** (circuit board) can look detailed with only 2-3 colours.
 
 ## Open questions
-- "Nodes": confirm what the user means (see conversation).
+- "Nodes" = C64 Dev Machine nodes. See C64_DEV_MACHINE.md.
