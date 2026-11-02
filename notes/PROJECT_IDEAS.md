@@ -1,7 +1,8 @@
 # Project ideas
 
-## Idea 1: forest path perspective showcase (2026-11-02)
-An animation showcase (more about looking amazing than gameplay) to see what we can push the C64 to do.
+## Technique example: forest path perspective (2026-11-02)
+**This is an EXAMPLE the user gave to explain a technique, NOT the planned animation.** It will probably be used at some point.
+Don't jump ahead and treat examples as the plan; wait for the user to say what the project is.
 
 - Scene: a painterly, almost watercolour bitmap of a **path leading off into a forest**.
   The path recedes into the distance instead of running straight up/down the screen.
@@ -15,3 +16,9 @@ An animation showcase (more about looking amazing than gameplay) to see what we 
   Tip: scale by whole numbers with nearest-neighbour (e.g. x3 → 1152x816 centred in 1080p, or x4 with the border cropped)
   so the pixels stay sharp and even.
 - Built with nodes first (see THE RULE in C64_DEV_MACHINE.md).
+
+## IP / fan-made content
+- Fan-made work using other people's characters is risky, and it varies: some rights holders are relaxed,
+  some (e.g. Nintendo) are very strict, and plenty are somewhere in between.
+- Default: **original characters and worlds**. If a project leans on someone else's work, flag it and
+  discuss it with the user first.
