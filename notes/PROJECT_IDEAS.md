@@ -37,3 +37,7 @@ Don't jump ahead and treat examples as the plan; wait for the user to say what t
   - **Modern translations** can be copyrighted. Work from the original German or old public-domain
     translations, or write our own retelling.
 - Fits the dark, painterly C64 art style in the reference images.
+- **Audience: ADULTS ONLY.** This is the adult, grim side, not for children. Give it a clear content warning / age rating
+  up front (title card + video description), e.g. "18+ (the user says 21+): disturbing, violent content".
+- Violent moments are handled with storytelling craft (silhouettes, shadows, cutaways, aftermath, SID sound),
+  not gore for its own sake.
